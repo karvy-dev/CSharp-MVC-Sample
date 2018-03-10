@@ -1,0 +1,169 @@
+﻿@model AadhaarPortal.Controllers.ReplyViewModel
+
+<h2>Reply</h2>
+
+<div>
+    <h4>Transaction Status</h4>
+    <hr />
+    <dl class="dl-horizontal">
+
+        <dt>
+            @Html.DisplayNameFor(model => model.reply.ResponseCode)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.reply.ResponseCode)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.reply.Reason)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.reply.Reason)
+        </dd>
+
+
+        <dt>
+        </dt>
+
+        <dd>
+            <img height="100" src="@Url.Action("Picture", "Test")" />
+        </dd>
+
+
+        <dt>
+            @Html.DisplayNameFor(model => model.data.name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.data.name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.data.dob)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.data.dob)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.data.gender)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.data.gender)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.data.careOf)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.data.careOf)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.data.buildingName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.data.buildingName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.data.landMark)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.data.landMark)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.data.locality)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.data.locality)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.data.street)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.data.street)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.data.village)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.data.village)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.data.subDistrict)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.data.subDistrict)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.data.district)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.data.district)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.data.districtName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.data.districtName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.data.state)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.data.state)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.data.country)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.data.country)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.data.pinCode)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.data.pinCode)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.data.postOffice)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.data.postOffice)
+        </dd>
+
+
+    </dl>
+</div>
+
+<p>
+    @Html.ActionLink("Try again", "Index")
+</p>
