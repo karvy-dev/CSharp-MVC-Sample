@@ -84,7 +84,7 @@ namespace AadhaarPortal.Controllers
                     data = data,
                 };
 
-                TempData["Photo"] = data.picture;
+                TempData["Photo"] = data.photo;
 
 
             }
@@ -152,7 +152,7 @@ namespace AadhaarPortal.Controllers
 
     public class DataBlock
     {
-        public string picture { get; set; }
+        public string photo { get; set; }
 
         public string name { get; set; }
 
